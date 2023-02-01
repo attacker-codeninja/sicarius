@@ -49,7 +49,7 @@ def banner():
 \t██████╔╝██║╚█████╔╝██║░░██║██║░░██║██║╚██████╔╝██████╔╝
 \t╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░╚═════╝░╚═════╝░   
 \t       
-\t    -= ⚡️ Fast subdomain enumeration tool ⚡️ =-
+\t    -= ⚡ Fast subdomain enumeration tool ⚡ =-
 \t                    
 \t  
 \t {2}[{4}{5}Version: 1.1.2{4} {3}Codename: Edwin ✨ {4}{0}[author: unp4ck]{4}{1}[tw: @unp4ck]{4}{2}] 
@@ -219,12 +219,12 @@ class Sicarius:
                     sys.stdout.flush()
             pool.join()
             domainList = []
+            if result == None:
+                pass
             for results in result.get():
-                if results == None:
-                    print("{0}[*] Not results found, you create, {1}config/config.yaml ? {1}with your keys ?".format(color.red, color.reset, color.white))
-                    sys.exit(0)
-                for result in results:
-                    domainList.append(result.lower())
+                if results is not None and len(results) > 0:
+                    for result in results:
+                        domainList.append(result.lower())
                 domainList = list(dict.fromkeys(domainList))
             sys.stdout.write('\x1b[2K\n')
             self._info('Found {2}{0}{4} for {3}{1}{4}\n\n'.format(len(domainList), self.domain, purple, purple3, reset), r=True)
