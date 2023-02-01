@@ -8,6 +8,15 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+Tests/
+test
+__pycache__
+tests
+config/config.yaml
+config.yaml
+dump
+Pipfile
+Pipfile.lock
 build/
 develop-eggs/
 dist/
