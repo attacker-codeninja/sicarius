@@ -52,7 +52,7 @@ def banner():
 \t    -= ⚡ Fast subdomain enumeration tool ⚡ =-
 \t                    
 \t  
-\t {2}[{4}{5}Version: 1.1.2{4} {3}Codename: Edwin ✨ {4}{0}[author: unp4ck]{4}{1}[tw: @unp4ck]{4}{2}] 
+\t {2}[{4}{5}Version: 1.1.2{4} {3}Codename: Edwin ✨ {4}{0}[author: incogbyte]{4}{1}[tw: @incogbyte]{4}{2}] 
 '''
     logo = logo.format(light_grey, dark_grey, red, white, color.reset, magenta)
     os.system('cls' if os.name == 'nt' else 'clear')

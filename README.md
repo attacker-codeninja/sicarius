@@ -5,12 +5,12 @@
 ![/static/banner.png](/static/f.png)
 
 <h4 align="center">  🐴 ⚡️ Fast subdomain enumeration tool 🐴 ⚡️</h4>
-<a href="https://twitter.com/unp4ck">🦆 @unp4ck</a>
+<a href="https://twitter.com/incogbyte">🦆 @incogbyte</a>
 <p> Version 1.1.2 Codename Edwin (😅 BETA!) <p>
 
-![alt text](https://img.shields.io/github/stars/unp4ck/Sicarius)
-![alt text](https://img.shields.io/github/languages/top/unp4ck/Sicarius)
-![alt text](https://img.shields.io/github/license/unp4ck/Sicarius)
+![alt text](https://img.shields.io/github/stars/incogbyte/Sicarius)
+![alt text](https://img.shields.io/github/languages/top/incogbyte/Sicarius)
+![alt text](https://img.shields.io/github/license/incogbyte/Sicarius)
 
 
 ### Install
@@ -23,7 +23,7 @@
 
 ```bash
 
-git clone github.com/unp4ck/sicarius.git
+git clone github.com/incogbyte/sicarius.git
 
 cd sicarius
 
@@ -140,7 +140,7 @@ python3 sicarius.py -d intigriti.com
 	    -= ⚡️ Fast subdomain enumeration tool ⚡️ =-
 
 
-	 [Version: 1.0.1 Codename: Edwin ♥️ [author: unp4ck][tw: @unp4ck]]
+	 [Version: 1.0.1 Codename: Edwin ♥️ [author: incogbyte][tw: @incogbyte]]
 
 [20:14:32] [ 🔎]: certspotter.com 5 domains founded! ✅
 [20:14:32] [ 🔎]: securitytrails.com 30 domains founded! ✅
